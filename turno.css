@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.portada{
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    
+    display: inline-block;
+    color: #fff;
+}
+.navbar{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 20px;
+    justify-content: center;
+}
+nav a:hover{
+    background: rgb(161, 76, 157);
+    transition: 0.8s;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+nav a:hover{
+    color: rgb(249, 246, 246);
+}
+body{
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #ff02ff95 ,#00ffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid #fff;
+    position: relative;
+    margin: 25px;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: antiquewhite;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+}
+.card:hover .card-body{
+    right: 0;
+}
+.card-texto{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    
+
+
+}
+.card a{
+    text-decoration: none;
+}
+.card-info{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+}
+.card-enlace{
+    color: black;
+    background: #8fabba;
+    padding: 10px 20px;
+    width: 120px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.menu{
+   margin-top: 50px;
+   padding: 20px;
+ border: 2px solid rgb(140, 93, 141);
+ color: #fff;
+ text-decoration: none;
+ background: rgb(140, 93, 141);
+
+}
+.menu:hover{
+    text-align: center;
+    background: none;
+}
+.menu-home{
+    display: flex;
+}
+.menu-home a{
+    margin: 0 30px;
+    
+}
+.fechas{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+
